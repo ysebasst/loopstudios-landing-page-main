@@ -1,0 +1,21 @@
+// FONTAWESOME
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css");
+// FONT ALATA
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+// font-family: 'Alata', sans-serif;
+// FONT JOSEFIN SANS
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+// font-family: 'Josefin Sans', sans-serif;
+
+// NORMALIZE
+@import "normalize";
+
+// CUSTOM STYLES
+@import "global";
+@import "header";
+@import "description";
+@import "creations";
+@import "footer";
+
+// ATTRIBUTION
+@import "attribution";

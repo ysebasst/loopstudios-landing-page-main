@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Black: hsl(0, 0%, 0%);
+  --DarkGray: hsl(0, 0%, 55%);
+  --VeryDarkGray: hsl(0, 0%, 41%);
+}
+
+body {
+  font-family: "Alata", sans-serif;
+}
+
+.container {
+  max-width: 375px;
+  margin: 0 auto;
+  &__padding {
+  }
+  @media screen and (min-width: 992px) {
+    max-width: 1162px;
+    &--padding {
+      padding: 10rem 0;
+    }
+  }
+}
